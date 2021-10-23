@@ -33,6 +33,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/', 'Contoh1::index');
+$routes->get('/', 'Web::construct');
+$routes->get('/', 'Cinema::index');
 
 /*
  * --------------------------------------------------------------------
