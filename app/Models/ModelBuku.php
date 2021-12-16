@@ -40,8 +40,7 @@ class ModelBuku extends CI_Model
     }
 
     //manajemen kategori
-    public function
-    getKategori()
+    public function getKategori()
     {
         return $this->db->get('kategori');
     }

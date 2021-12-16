@@ -8,6 +8,8 @@ class Buku extends CI_Controller
         parent::__construct();
         cek_login();
     }
+
+    //manajemen Buku
     public function index()
     {
         $data['judul'] = 'Data Buku';
